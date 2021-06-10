@@ -1,38 +1,267 @@
-.App {
-  text-align: center;
+body {
+  font-family: "Varela Round", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+  text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 {
+  margin: 0;
+  padding: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.bgHome {
+  background: url("./images/final.png");
+  height: 100vh;
+  background-size: cover;
+  background-position: 20% 20%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.bgHome::before {
+  content: "";
+  background: rgba(4, 11, 20, 0.65);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  height: 100vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.bgHome h1 {
+  color: #fff;
+  z-index: 1;
+  font-size: 70px;
+  text-align: center;
+}
+
+.bgHome p {
+  color: #f2d9e3;
+  z-index: 1;
+  font-size: 24px;
+  width: 50%;
+  text-align: center;
+}
+
+.bgHome a {
+  border-radius: 10px;
+  padding: 20px;
+  width: 100px;
+  text-align: center;
+  background-color: #149ddd;
+  color: #fff;
+  z-index: 1;
+  border: 1px solid #149ddd;
+  font-size: 24px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.bgHome a:hover {
+  background-color: #149;
+  border: 1px solid #149;
+}
+
+.bgHome a span {
+  display: inline-block;
+  position: relative;
+  transition: 0.3s;
+}
+
+.bgHome a span::after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.3s;
+}
+
+.bgHome a:hover span {
+  padding-right: 25px;
+}
+
+.bgHome a:hover span::after {
+  opacity: 1;
+  right: 0;
+}
+
+.content {
+  position: absolute;
+  z-index: 1;
+  text-align: right;
+  width: 70%;
+}
+
+.content > p:nth-child(1) {
+  color: #d4d4d4;
+}
+
+.content > p:nth-child(2) {
+  color: #949494;
+}
+
+.content-holder {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.content-holder img {
+  width: 100%;
+  height: 100vh;
+}
+
+.content-holder i {
+  position: absolute;
+  color: #737373;
+  font-size: 50px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.content-holder i:hover {
+  color: #dbdbdb;
+}
+
+.content-holder .left-arrow {
+  left: 0;
+  padding-left: 50px;
+}
+
+.content-holder .right-arrow {
+  right: 0;
+  padding-right: 50px;
+}
+
+.content-holder::before {
+  content: "";
+  background: rgba(4, 11, 20, 0.75);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  height: 100vh;
+}
+
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slide.active {
+  opacity: 1;
+  /* transition-duration: 1s;
+  transform: scale(1); */
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.slide.active p {
+  font-size: 30px;
+  z-index: 1;
+  margin: 0;
+}
+
+.slide.active span {
+  text-align: right;
+}
+
+.about-container {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  height: 100%;
+  background-color: #31363d;
+}
+
+.about-wrapper {
+  display: flex;
+  padding-top: 100px;
+  padding-left: 100px;
+}
+
+.about-wrapper > div {
+  color: #fff;
+  z-index: 1;
+}
+
+.about-wrapper > div h1 {
+  border-bottom: 3px solid #149ddd;
+  padding-bottom: 10px;
+}
+
+.about-wrapper div:nth-child(2) {
+  padding-left: 100px;
+  width: 70%;
+  color: #c2c2c2;
+}
+
+.about-wrapper p {
+  margin: 15px 0;
+  font-size: 18px;
+}
+
+.about-wrapper img {
+  width: 70%;
+}
+
+footer {
+  background-color: #31363d;
+  margin: 20px 0 0 0;
+  padding: 0 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer p {
+  margin: 0;
+  padding: 15px;
+  color: #c2c2c2;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 1199px) {
+  .bgHome h1 {
+    font-size: 60px;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media screen and (max-width: 991px) {
+  .bgHome h1 {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .about-wrapper,
+  .about-wrapper div:nth-child(2) {
+    padding-left: 50px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .bgHome h1 {
+    font-size: 40px;
+  }
+
+  .about-wrapper,
+  .about-wrapper div:nth-child(2) {
+    padding-left: 10px;
   }
 }

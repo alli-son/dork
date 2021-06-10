@@ -1,0 +1,25 @@
+nav {
+  background-color: transparent;
+  position: relative;
+  z-index: 2;
+}
+
+nav div:nth-child(1) {
+  position: absolute;
+  left: 0;
+  padding: 20px;
+}
+
+nav div:nth-child(2) {
+  position: absolute;
+  right: 0;
+  padding: 20px;
+}
+
+a {
+  color: #c2c2c2;
+}
+
+a:hover {
+  color: #fff;
+}
