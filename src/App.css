@@ -265,3 +265,12 @@ footer p {
     padding-left: 10px;
   }
 }
+
+/* UNIVERSAL */
+.fs24 {
+  font-size: 24px !important;
+}
+
+.italic {
+  font-style: italic;
+}

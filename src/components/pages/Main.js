@@ -13,6 +13,8 @@ const Main = () => {
     setCurrent(current === 0 ? length - 1 : current - 1);
   };
 
+  document.addEventListener("keydown", (event) => console.log(event.key));
+
   return (
     <React.Fragment>
       <div className="content-holder">
@@ -29,7 +31,12 @@ const Main = () => {
               {index === current ? (
                 <div className="content">
                   <p>{imgs.content}</p>
-                  <p>{imgs.author}</p>
+                  {imgs.author && imgs.place ? (
+                    <p className="fs24">
+                      - {imgs.author}{" "}
+                      <span className="italic">({imgs.place})</span>
+                    </p>
+                  ) : null}
                 </div>
               ) : (
                 ""

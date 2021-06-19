@@ -13,6 +13,7 @@ import img12 from "../images/12.jpg";
 import img13 from "../images/13.jpg";
 import img14 from "../images/14.jpg";
 import img15 from "../images/15.jpg";
+import img16 from "../images/16.jpeg";
 
 export const ArrayImages = [
   {
@@ -20,14 +21,16 @@ export const ArrayImages = [
     image: img1,
     content:
       "Talent is something you make bloom. Instinct is something you polish.",
-    author: "- Tōru Oikawa (Haikyu!!)",
+    author: "Tōru Oikawa",
+    place: "Haikyu!!",
     alt: "Oikawa",
   },
   {
     id: 2,
     image: img2,
     content: "No amount of money ever bought a second of time.",
-    author: "- Tony Stark (Avengers: Endgame)",
+    author: "Tony Stark",
+    place: "Avengers Endgame",
     alt: "Tony",
   },
   {
@@ -35,21 +38,24 @@ export const ArrayImages = [
     image: img3,
     content:
       "Everyone's a whore Grace. We just sell different parts of ourselves.",
-    author: "- Tommy Shelby (Peaky Blinders)",
+    author: "Tommy Shelby",
+    place: "Peaky Blinders",
     alt: "Tommy",
   },
   {
     id: 4,
     image: img4,
     content: "A promise between friends means never having to give a reason.",
-    author: "- Phoebe Buffay (Friends)",
+    author: "Phoebe Buffay",
+    place: "Friends",
     alt: "Phoebe",
   },
   {
     id: 5,
     image: img5,
     content: "The man who believes he knows everything learns nothing.",
-    author: "- Mark Manson (The Subtle Art of Not Giving a F*ck)",
+    author: "Mark Manson",
+    place: "The Subtle Art of Not Giving a F*ck",
     alt: "Mark",
   },
   {
@@ -57,7 +63,8 @@ export const ArrayImages = [
     image: img6,
     content:
       "Hindi dahil sa hindi mo naiintindihan ang isang bagay ay kasinungalingan na ito. At hindi lahat ng kaya mong intindihin ay katotohanan.",
-    author: "- Bob Ong (Ang Paboritong Libro ni Hudas)",
+    author: "Bob Ong",
+    place: "Ang Paboritong Libro ni Hudas",
     alt: "Bob",
   },
   {
@@ -65,22 +72,25 @@ export const ArrayImages = [
     image: img7,
     content:
       "Mas mabuting mamatay sa paghahabol ng gusto mo, kesa mamatay sa kakaiwas ng ayaw mo.",
-    author:
-      "- Eros Atalia (It's Not That Complicated: Bakit Hindi pa Sasakupin ng mga Alien ang Daigdig sa 2012)",
-    alt: "Bob",
+    author: "Eros Atalia",
+    place:
+      "It's Not That Complicated: Bakit Hindi pa Sasakupin ng mga Alien ang Daigdig sa 2012",
+    alt: "Eros",
   },
   {
     id: 8,
     image: img8,
     content: "I'm happy and I don't know why...",
-    author: "- Lyndon Gregorio (Beerkada)",
+    author: "Lyndon Gregorio",
+    place: "Beerkada",
     alt: "Lyndon",
   },
   {
     id: 9,
     image: img9,
     content: "The journey is no fun if you know where you are going.",
-    author: "- Sōma Yukihira (Shokugeki No Sōma)",
+    author: "Sōma Yukihira",
+    place: "Shokugeki No Sōma",
     alt: "Sōma",
   },
   {
@@ -88,7 +98,8 @@ export const ArrayImages = [
     image: img10,
     content:
       "The simple things are also the most extraordinary things, and only the wise can see them.",
-    author: "- Paulo Coelho (The Alchemist)",
+    author: "Paulo Coelho",
+    place: "The Alchemist",
     alt: "Paulo",
   },
   {
@@ -96,7 +107,8 @@ export const ArrayImages = [
     image: img11,
     content:
       "It is only with the heart that one can see rightly; what is essential is invisible to the eye.",
-    author: "- Antoine de Saint-Exupéry (The Little Prince)",
+    author: "Antoine de Saint-Exupéry",
+    place: "The Little Prince",
     alt: "Antoine",
   },
   {
@@ -104,7 +116,8 @@ export const ArrayImages = [
     image: img12,
     content:
       "When you have eliminated the impossible, whatever remains, however improbable, must be the truth.",
-    author: "- Sir Arthur Conan Doyle (Sherlock Holmes)",
+    author: "Sir Arthur Conan Doyle",
+    place: "Sherlock Holmes",
     alt: "Arthur",
   },
   {
@@ -112,7 +125,8 @@ export const ArrayImages = [
     image: img13,
     content:
       "In a corrupt country, if you want to succeed in politics, you must keep your conscience under control.",
-    author: "- Sen. Miriam Defensor Santiago (Stupid Is Forever)",
+    author: "Sen. Miriam Defensor Santiago",
+    place: "Stupid Is Forever",
     alt: "Miriam",
   },
   {
@@ -120,16 +134,26 @@ export const ArrayImages = [
     image: img14,
     content:
       "There is everything you know and there is everything that happens. When the two do not line up, you make a choice.",
-    author: "- Mitch Albom (For One More Day)",
+    author: "Mitch Albom",
+    place: "For One More Day",
     alt: "Mitch",
   },
-
   {
     id: 15,
     image: img15,
     content: "Time will not slow down when something unpleasant lies ahead.",
-    author: "- Harry Potter (Harry Potter and the Goblet of Fire)",
+    author: "Harry Potter",
+    place: "Harry Potter and the Goblet of Fire",
     alt: "Harry",
+  },
+  {
+    id: 16,
+    image: img16,
+    content:
+      "Victory won’t just fall in your lap. It’s something I’ve learned through my victory and losses.",
+    author: "Tadokoro Jin",
+    place: "Yowamushi Pedal",
+    alt: "Tadokoro",
   },
 
   // {
