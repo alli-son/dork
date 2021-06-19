@@ -185,8 +185,6 @@ h1 {
 .about-container {
   width: 100%;
   margin: 0 auto;
-  position: relative;
-  height: 100%;
   background-color: #31363d;
 }
 
@@ -258,6 +256,10 @@ footer p {
 @media screen and (max-width: 576px) {
   .bgHome h1 {
     font-size: 40px;
+  }
+
+  .slide.active p {
+    font-size: 24px;
   }
 
   .about-wrapper,

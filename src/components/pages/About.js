@@ -27,7 +27,7 @@ const About = () => {
               />
             </div>
 
-            <p>
+            <p className="italic">
               *Disclaimer: This is by no means a self-help or self-improvement
               application. Like I said, just a random project for me.
             </p>
