@@ -7,7 +7,7 @@ const Main = () => {
 
   const nextSlide = () => {
     setCurrent(current === length - 1 ? 0 : current + 1);
-    for (let i = length - 1; i > 0; i--) {
+    for (let i = length - 2; i > 0; i--) {
       const rand = Math.floor(Math.random() * i);
       const temp = ArrayImages[i];
       ArrayImages[i] = ArrayImages[rand];
@@ -19,7 +19,7 @@ const Main = () => {
     setCurrent(current === 0 ? length - 1 : current - 1);
   };
 
-  document.addEventListener("keydown", (event) => console.log(event.key));
+  // document.addEventListener("keydown", (event) => console.log(event.key));
 
   return (
     <React.Fragment>

@@ -266,6 +266,14 @@ footer p {
   .about-wrapper div:nth-child(2) {
     padding-left: 10px;
   }
+
+  .content-holder .left-arrow {
+    padding-left: 20px;
+  }
+
+  .content-holder .right-arrow {
+    padding-right: 20px;
+  }
 }
 
 /* UNIVERSAL */
