@@ -264,7 +264,7 @@ footer p {
 
   .about-wrapper,
   .about-wrapper div:nth-child(2) {
-    padding-left: 10px;
+    padding-left: 15px;
   }
 
   .content-holder .left-arrow {
@@ -273,6 +273,14 @@ footer p {
 
   .content-holder .right-arrow {
     padding-right: 20px;
+  }
+
+  .about-wrapper > div h1 {
+    font-size: 20px;
+  }
+
+  .about-wrapper p {
+    margin: 3px 0;
   }
 }
 
