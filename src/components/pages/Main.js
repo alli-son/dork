@@ -7,6 +7,12 @@ const Main = () => {
 
   const nextSlide = () => {
     setCurrent(current === length - 1 ? 0 : current + 1);
+    for (let i = length - 1; i > 0; i--) {
+      const rand = Math.floor(Math.random() * i);
+      const temp = ArrayImages[i];
+      ArrayImages[i] = ArrayImages[rand];
+      ArrayImages[rand] = temp;
+    }
   };
 
   const prevSlide = () => {

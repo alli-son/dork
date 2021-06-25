@@ -14,6 +14,14 @@ import img13 from "../images/13.jpg";
 import img14 from "../images/14.jpg";
 import img15 from "../images/15.jpg";
 import img16 from "../images/16.jpeg";
+import img17 from "../images/17.jpeg";
+import img18 from "../images/18.jpeg";
+import img19 from "../images/19.jpeg";
+import img20 from "../images/20.jpeg";
+import img21 from "../images/21.jpeg";
+import img22 from "../images/22.jpeg";
+import img23 from "../images/23.jpeg";
+import img24 from "../images/24.jpeg";
 
 export const ArrayImages = [
   {
@@ -154,6 +162,76 @@ export const ArrayImages = [
     author: "Tadokoro Jin",
     place: "Yowamushi Pedal",
     alt: "Tadokoro",
+  },
+  {
+    id: 17,
+    image: img17,
+    content:
+      "When the world shoves you around, you just gotta stand up and shove back. It's not like somebody's gonna save you if you start babbling excuses.",
+    author: "Roronoa Zoro",
+    place: "One Piece",
+    alt: "Zoro",
+  },
+  {
+    id: 18,
+    image: img18,
+    content:
+      "My motto is to be stronger than yersterday, if I have to I'll be stronger than half a day ago, even a minute ago!",
+    author: "Rock Lee",
+    place: "Naruto",
+    alt: "Lee",
+  },
+  {
+    id: 19,
+    image: img19,
+    content:
+      "Relying on someone else without exerting any effort of your own is just not right. Because the one you rely on most, can disappear, at any time.",
+    author: "Jodie Starling",
+    place: "Detective Conan",
+    alt: "Jodie",
+  },
+  {
+    id: 20,
+    image: img20,
+    content: "A great calligrapher doesn't blame the brush.",
+    author: "Shunsui Kyōraku",
+    place: "Prince of Tennis",
+    alt: "Fuji",
+  },
+  {
+    id: 21,
+    image: img21,
+    content:
+      "That's just the way it is. Change is inevitable. Instead of resisting it, you're better served simply by going with the flow.",
+    author: "Shunsui Kyōraku",
+    place: "Bleach",
+    alt: "Shunsui",
+  },
+  {
+    id: 22,
+    image: img22,
+    content:
+      "No one can ever know how to do everything without learning it first.",
+    author: "Haruko Akagi",
+    place: "Slam Dunk",
+    alt: "Haruko",
+  },
+  {
+    id: 23,
+    image: img23,
+    content:
+      "A perfect plan doesn't mean having everything go within expectations. A pefect plan is achieved when it has the plasticity needed to flexibly deal with troubles.",
+    author: "Shogo Makishima",
+    place: "Psycho-Pass",
+    alt: "Shogo",
+  },
+  {
+    id: 24,
+    image: img24,
+    content: "Death smiles on us all. All a man can do is smile back.",
+    author: "Marcus Aurelius",
+    place: "Gladiator",
+    alt: "Marcus",
   },
 
   // {
