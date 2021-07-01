@@ -22,6 +22,12 @@ import img21 from "../images/21.jpeg";
 import img22 from "../images/22.jpeg";
 import img23 from "../images/23.jpeg";
 import img24 from "../images/24.jpeg";
+import img25 from "../images/25.jpeg";
+import img26 from "../images/26.jpeg";
+import img27 from "../images/27.jpeg";
+import img28 from "../images/28.jpeg";
+import img29 from "../images/29.jpeg";
+import img30 from "../images/30.jpeg";
 
 export const ArrayImages = [
   {
@@ -233,7 +239,59 @@ export const ArrayImages = [
     place: "Gladiator",
     alt: "Marcus",
   },
-
+  {
+    id: 25,
+    image: img25,
+    content:
+      "I think that's what people most always do with the stuff they can't make out - just forget it.",
+    author: "Paul Edgecomb",
+    place: "Green Mile",
+    alt: "Paul",
+  },
+  {
+    id: 26,
+    image: img26,
+    content:
+      "If you want to be a good archeologist, you gotta get out of the library.",
+    author: "Henry Jones Jr.",
+    place: "Indiana Jones and the Kingdom of Crystal Skull",
+    alt: "Henry",
+  },
+  {
+    id: 27,
+    image: img27,
+    content:
+      "All we have to decide is what to do with the time that is given to us.",
+    author: "Gandalf the Grey",
+    place: "The Lord of the Rings: The Fellowship of the Rings",
+    alt: "Gandalf",
+  },
+  {
+    id: 28,
+    image: img28,
+    content:
+      "If you fear the future so much, how can you live? And how can you focus on today?",
+    author: "Rancho",
+    place: "3 Idiots",
+    alt: "Rancho",
+  },
+  {
+    id: 29,
+    image: img29,
+    content:
+      "Perhaps it's fate that today is the Fourth of July, and you will once again be fighting for our freedom. Not from tyranny, oppression, or persecution... but from annihilation. We are fighting for our right to live. To exist.",
+    author: "Thomas J. Whitmore",
+    place: "Independence Day",
+    alt: "Thomas",
+  },
+  {
+    id: 30,
+    image: img30,
+    content: "Life finds a way.",
+    author: "Ian Malcolm",
+    place: "Jurassic Park",
+    alt: "Ian",
+  },
   // {
   //   id: 2,
   //   image: img2,
