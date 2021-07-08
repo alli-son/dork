@@ -37,10 +37,14 @@ const Main = () => {
               {index === current ? (
                 <div className="content">
                   <p>{imgs.content}</p>
-                  {imgs.author && imgs.place ? (
+                  {imgs.author || imgs.place ? (
                     <p className="fs24">
                       - {imgs.author}{" "}
-                      <span className="italic">({imgs.place})</span>
+                      {imgs.place ? (
+                        <span className="italic">({imgs.place})</span>
+                      ) : (
+                        ""
+                      )}
                     </p>
                   ) : null}
                 </div>

@@ -27,9 +27,9 @@ const About = () => {
               />
             </div>
 
-            <p className="italic">
+            <p className="italic fs16">
               *Disclaimer: This is by no means a self-help or self-improvement
-              application. Like I said, just a random project for me.
+              application. Like I said, just a random project.
             </p>
           </div>
         </div>

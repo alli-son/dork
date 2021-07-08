@@ -28,6 +28,42 @@ import img27 from "../images/27.jpeg";
 import img28 from "../images/28.jpeg";
 import img29 from "../images/29.jpeg";
 import img30 from "../images/30.jpeg";
+import img31 from "../images/31.jpeg";
+import img32 from "../images/32.png";
+import img33 from "../images/33.jpeg";
+import img34 from "../images/34.png";
+import img35 from "../images/35.jpeg";
+import img36 from "../images/36.jpeg";
+import img37 from "../images/37.jpeg";
+import img38 from "../images/38.jpeg";
+import img39 from "../images/39.jpeg";
+import img40 from "../images/40.jpeg";
+import img41 from "../images/41.jpeg";
+import img42 from "../images/42.jpeg";
+import img43 from "../images/43.jpeg";
+import img44 from "../images/44.jpeg";
+import img45 from "../images/45.jpeg";
+import img46 from "../images/46.jpeg";
+import img47 from "../images/47.jpeg";
+import img48 from "../images/48.jpeg";
+import img49 from "../images/49.jpeg"; // inspirational person one
+import img50 from "../images/50.jpeg"; // inspirational person two
+import img51 from "../images/51.jpeg"; // inspirational person three
+import img52 from "../images/52.jpeg"; // inspirational person four
+import img53 from "../images/53.jpeg"; // inspirational person five
+import img54 from "../images/54.jpeg"; // inspirational person six
+import img55 from "../images/55.jpeg"; // inspirational person seven
+import img56 from "../images/56.jpeg"; // nature one
+import img57 from "../images/57.jpeg"; // nature two
+import img58 from "../images/58.jpeg"; // nature three
+import img59 from "../images/59.jpeg"; // nature four
+import img60 from "../images/60.jpeg"; // nature five
+import img61 from "../images/61.jpeg"; // nature six
+import img62 from "../images/62.jpeg"; // inspirational person eight
+import img63 from "../images/63.jpeg";
+import img64 from "../images/64.jpeg"; // people one
+import img65 from "../images/65.jpeg";
+import img66 from "../images/66.jpeg"; // people two
 
 export const ArrayImages = [
   {
@@ -292,6 +328,318 @@ export const ArrayImages = [
     place: "Jurassic Park",
     alt: "Ian",
   },
+  {
+    id: 31,
+    image: img31,
+    content:
+      "You look down, they know you're lying. And up, they know you don't know the truth. Don't use seven words when four will do. Don't shift your weight. Look always at your mark, but don't stare. Be specific, but not memorable. Be funny, but don't make him laugh. He's got to like you, then forget you the moment you've left his side.",
+    author: "Rusty Ryan",
+    place: "Ocean's' Eleven",
+    alt: "Rusty",
+  },
+  {
+    id: 32,
+    image: img32,
+    content: "Discipline always comes with a price.",
+    author: "Patrick Jane",
+    place: "The Mentalist",
+    alt: "Patrick",
+  },
+  {
+    id: 33,
+    image: img33,
+    content:
+      "Love is giving someone the ability to destroy you. But trusting them not to.",
+    author: "Derek Morgan",
+    place: "Criminal Minds",
+    alt: "Derek",
+  },
+  {
+    id: 34,
+    image: img34,
+    content:
+      "You can do whatever you want, you just have to know what that is.",
+    author: "Abed Nadir",
+    place: "Community",
+    alt: "Abed",
+  },
+  {
+    id: 35,
+    image: img35,
+    content:
+      "I'm not a psychopath, I'm a high-functioning sociopath. Do your research.",
+    author: "Sherlock Holmes",
+    place: "Sherlock",
+    alt: "Sherlock",
+  },
+  {
+    id: 36,
+    image: img36,
+    content: "I think you have to think ahead and live in the moment.",
+    author: "Rick Sanchez",
+    place: "Rick and Morty",
+    alt: "Rick",
+  },
+  {
+    id: 37,
+    image: img37,
+    content: "First step in solving a problem is recognizing there is one.",
+    author: "Will McAvoy",
+    place: "The Newsroom",
+    alt: "Will",
+  },
+  {
+    id: 38,
+    image: img38,
+    content: "What's worse, thinking you're paranoid or knowing you should be?",
+    author: "Aaron",
+    place: "Primer",
+    alt: "Aaron",
+  },
+  {
+    id: 39,
+    image: img39,
+    content:
+      "Did I want to be made manager? Sure. A great opportunity squandered? Absolutely. A crushing blow? Yes. Will I get over it? ...No. But life goes on... not for me.",
+    author: "Dwight Schrute",
+    place: "The Office",
+    alt: "Dwight",
+  },
+  {
+    id: 40,
+    image: img40,
+    content: "Just because you shot Jesse James, don't make you Jesse James.",
+    author: "Mike Ehrmantraut",
+    place: "Breaking Bad",
+    alt: "Mike",
+  },
+  {
+    id: 41,
+    image: img41,
+    content:
+      "Don’t hope for better. Just be better. Be something better. Be more compassionate, more resilient, more humble, more disciplined.",
+    author: "Mark Manson",
+    place: "Everything is F*cked: A Book About Hope",
+    alt: "Mark",
+  },
+  {
+    id: 42,
+    image: img42,
+    content: "Do what you HAVE to do, to do what you WANT to do.",
+    author: "Denzel Washington",
+    place: "",
+    alt: "Denzel",
+  },
+  {
+    id: 43,
+    image: img43,
+    content: "You never fail until you stop trying.",
+    author: "Albert Einstein",
+    place: "",
+    alt: "Albert",
+  },
+  {
+    id: 44,
+    image: img44,
+    content:
+      "It is better to be high-spirited even though one makes more mistakes, than to be narrow-minded and all too prudent.",
+    author: "Vincent Van Gogh",
+    place: "",
+    alt: "Vincent",
+  },
+  {
+    id: 45,
+    image: img45,
+    content:
+      "It is paradoxical, yet true, to say, that the more we know, the more ignorant we become in the absolute sense, for it is only through enlightenment that we become conscious of our limitations. Precisely one of the most gratifying results of intellectual evolution is the continuous opening up of new and greater prospects.",
+    author: "Nikola Tesla",
+    place: "",
+    alt: "Nikola",
+  },
+  {
+    id: 46,
+    image: img46,
+    content:
+      "You cannot escape the responsibility of tomorrow by evading it today.",
+    author: "Abraham Lincoln",
+    place: "",
+    alt: "Abraham",
+  },
+  {
+    id: 47,
+    image: img47,
+    content: "Simplicity is a matter of taste.",
+    author: "Stephen Hawking",
+    place: "",
+    alt: "Stephen",
+  },
+  {
+    id: 48,
+    image: img48,
+    content:
+      "Don’t compare yourself with anyone in this world. If you do so, you are insulting yourself.",
+    author: "Bill Gates",
+    place: "",
+    alt: "Bill",
+  },
+  {
+    id: 49,
+    image: img49,
+    content:
+      "We don’t fix our own problems by pointing at others who have worse problems.",
+    author: "",
+    place: "",
+    alt: "Anonymous",
+  },
+  {
+    id: 50,
+    image: img50,
+    content: "What’s the point of a dream if you don’t flirt with it a little.",
+    author: "",
+    place: "",
+    alt: "Anonymous",
+  },
+  {
+    id: 51,
+    image: img51,
+    content:
+      "The saddest part is when somebody who gives you the best memory, becomes a memory.",
+    author: "",
+    place: "",
+    alt: "Anonymous",
+  },
+  {
+    id: 52,
+    image: img52,
+    content:
+      "To get something you never had, you have to do something you never did.",
+    author: "",
+    place: "",
+    alt: "Anonymous",
+  },
+  {
+    id: 53,
+    image: img53,
+    content: "Dreams without goals are just dreams.",
+    author: "",
+    place: "",
+    alt: "Anonymous",
+  },
+  {
+    id: 54,
+    image: img54,
+    content: "Failure is sometimes the best way to know where you are going.",
+    author: "",
+    place: "",
+    alt: "Anonymous",
+  },
+  {
+    id: 55,
+    image: img55,
+    content:
+      'Those who laugh at other people challenging things are utterly hopeless. "No one has ever done it" is not the same as "No one can do it".',
+    author: "",
+    place: "",
+    alt: "Anonymous",
+  },
+  {
+    id: 56,
+    image: img56,
+    content:
+      "Repetitive thinking equals death knell for the brain. Diverse stimulation equals total brain usage.",
+    author: "",
+    place: "",
+    alt: "Anonymous",
+  },
+  {
+    id: 57,
+    image: img57,
+    content:
+      "We have three roles here on earth: to learn, to love and to live. When we stop learning, we start to stagnate and die. When we stop loving, we lose our sense of purpose. When we limit our living, we deny the world the benefits of our talents.",
+    author: "",
+    place: "",
+    alt: "Anonymous",
+  },
+  {
+    id: 58,
+    image: img58,
+    content:
+      "The problem of an argument that's based on God is, it is the last resort of a bad debater.",
+    author: "",
+    place: "",
+    alt: "Anonymous",
+  },
+  {
+    id: 59,
+    image: img59,
+    content:
+      "So tell me, how it felt when you walked on water? Did you get your wish?",
+    author: "",
+    place: "",
+    alt: "Anonymous",
+  },
+  {
+    id: 60,
+    image: img60,
+    content:
+      "If you have the privilege to choose what to complain about, you truly have nothing to worry about.",
+    author: "",
+    place: "",
+    alt: "Anonymous",
+  },
+  {
+    id: 61,
+    image: img61,
+    content:
+      "Some people need to be yelled at and pushed. While others need to be comforted. Everyone's different.",
+    author: "",
+    place: "",
+    alt: "Anonymous",
+  },
+  {
+    id: 62,
+    image: img62,
+    content: "The more you sweat in peace, the less you bleed in war.",
+    author: "",
+    place: "",
+    alt: "Anonymous",
+  },
+  {
+    id: 63,
+    image: img63,
+    content: "Humans can't live without making excuses.",
+    author: "Mahito",
+    place: "Jujutsu Kaisen",
+    alt: "Mahito",
+  },
+  {
+    id: 64,
+    image: img64,
+    content:
+      "If you throw enough money at something, you can get away with anything.",
+    author: "",
+    place: "",
+    alt: "Anonymous",
+  },
+  {
+    id: 65,
+    image: img65,
+    content:
+      'It has been said, "time heals all wounds." I do not agree. The wounds remain. In time, the mind, protecting its sanity, covers them with scar tissue and the pain lessens. But it is never gone.',
+    author: "Rose Fitzgerald Kennedy",
+    place: "",
+    alt: "Rose",
+  },
+  {
+    id: 66,
+    image: img66,
+    content: "Doing what you like is freedom. Liking what you do is happines.",
+    author: "",
+    place: "",
+    alt: "Anonymouse",
+  },
+  //
+
   // {
   //   id: 2,
   //   image: img2,
