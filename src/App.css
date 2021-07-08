@@ -186,6 +186,7 @@ h1 {
   width: 100%;
   margin: 0 auto;
   background-color: #31363d;
+  height: 100vh;
 }
 
 .about-wrapper {
