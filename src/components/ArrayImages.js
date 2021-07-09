@@ -2,7 +2,7 @@ import img1 from "../images/1.png";
 import img2 from "../images/2.jpg";
 import img3 from "../images/3.jpg";
 import img4 from "../images/4.jpg";
-import img5 from "../images/5.png";
+import img5 from "../images/5.png"; // Mark Manson
 import img6 from "../images/6.jpg";
 import img7 from "../images/7.jpg";
 import img8 from "../images/8.jpg";
@@ -64,6 +64,12 @@ import img63 from "../images/63.jpeg";
 import img64 from "../images/64.jpeg"; // people one
 import img65 from "../images/65.jpeg";
 import img66 from "../images/66.jpeg"; // people two
+import img67 from "../images/67.jpeg";
+import img68 from "../images/68.jpeg"; // band one
+import img69 from "../images/69.jpeg"; // band two
+import img70 from "../images/70.jpeg"; // band three
+import img71 from "../images/71.jpeg";
+import img72 from "../images/72.jpeg";
 
 export const ArrayImages = [
   {
@@ -636,7 +642,86 @@ export const ArrayImages = [
     content: "Doing what you like is freedom. Liking what you do is happines.",
     author: "",
     place: "",
-    alt: "Anonymouse",
+    alt: "Anonymous",
+  },
+  {
+    id: 67,
+    image: img67,
+    content:
+      "The moment you become embarrassed of who you are, you lose yourself.",
+    author: "Reuben Tishkoff",
+    place: "Ocean's Thirteen",
+    alt: "Anonymous",
+  },
+  {
+    id: 68,
+    image: img68,
+    content: "You're my addicting contradiction. That makes me feel alright.",
+    author: "Faintlight",
+    place: "Sleeping With Secrets",
+    alt: "Faintlight",
+  },
+  {
+    id: 69,
+    image: img69,
+    content:
+      "Can you explain to me? What has become of us? With words released, we can never take them back. Not even pleading can save us.",
+    author: "Urbandub",
+    place: "The Fight Is Over",
+    alt: "Urbandub",
+  },
+  {
+    id: 70,
+    image: img70,
+    content: "Live. Don't just exist.",
+    author: "Neverending Weekend",
+    place: "",
+    alt: "Neverending",
+  },
+  {
+    id: 71,
+    image: img71,
+    content:
+      "Yesterday is history, tomorrow is a mystery, but today is a gift. That is why it is called present.",
+    author: "Master Oogway",
+    place: "Kung Fu Panda",
+    alt: "Oogway",
+  },
+  {
+    id: 72,
+    image: img72,
+    content:
+      "It is the mark of an educated mind to be able to entertain a thought without accepting it.",
+    author: "Aristotle",
+    place: "",
+    alt: "Aristotle",
+  },
+  {
+    id: 73,
+    image: img5,
+    content:
+      "After all, no truly happy person feels the need to stand in front a mirror and recite that she's happy. She just is.",
+    author: "",
+    place: "",
+    alt: "Mark",
+  },
+  {
+    id: 74,
+    image: img5,
+    content:
+      "A confident man doesn't feel a need to prove that he's confident.",
+    author: "",
+    place: "",
+    alt: "Mark",
+  },
+  {
+    id: 75,
+    image: img5,
+    content:
+      "The desire for more positive experience is itself a negative experience. And, paradoxically, the acceptance of one's negative experience is itself a positive experience.",
+    author: "",
+    place: "",
+    alt: "Mark",
   },
   //
 
