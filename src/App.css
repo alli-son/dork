@@ -186,7 +186,6 @@ h1 {
   width: 100%;
   margin: 0 auto;
   background-color: #31363d;
-  height: 100vh;
 }
 
 .about-wrapper {
@@ -226,6 +225,7 @@ footer {
   padding: 0 5px;
   display: flex;
   justify-content: space-between;
+  height: 65px;
 }
 
 footer p {
@@ -270,10 +270,12 @@ footer p {
 
   .content-holder .left-arrow {
     padding-left: 20px;
+    font-size: 35px;
   }
 
   .content-holder .right-arrow {
     padding-right: 20px;
+    font-size: 35px;
   }
 
   .about-wrapper > div h1 {
