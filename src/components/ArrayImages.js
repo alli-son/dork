@@ -70,6 +70,11 @@ import img69 from "../images/69.jpeg"; // band two
 import img70 from "../images/70.jpeg"; // band three
 import img71 from "../images/71.jpeg";
 import img72 from "../images/72.jpeg";
+import img73 from "../images/73.jpeg";
+import img74 from "../images/74.jpeg";
+import img75 from "../images/75.jpeg"; // sad one
+import img76 from "../images/76.jpeg";
+import img77 from "../images/77.jpeg"; // sad two
 
 export const ArrayImages = [
   {
@@ -723,6 +728,52 @@ export const ArrayImages = [
     place: "",
     alt: "Mark",
   },
+  {
+    id: 76,
+    image: img73,
+    content:
+      "I think that if life separates us and we end up in totally different places, we'll always remember when our paths aligned for this period of time and I'll be thankful for that. And I hope that wherever you are, you'll be thankful too. And I think that's the best we could wish for.",
+    author: "Wong Fu Productions",
+    place: "Strangers Again",
+    alt: "Wong Fu",
+  },
+  {
+    id: 77,
+    image: img74,
+    content:
+      "You'll sit alone forever if you wait for the right time. What are you hoping for?",
+    author: "Jimmy Eat World",
+    place: "23",
+    alt: "Jimmy",
+  },
+  {
+    id: 78,
+    image: img75,
+    content:
+      "Sometimes we think we want to disappear. But all we want is to be found.",
+    author: "",
+    place: "",
+    alt: "Anonymous",
+  },
+  {
+    id: 79,
+    image: img76,
+    content:
+      "Men always want to be a woman's first love. Women like to be a man's last romance.",
+    author: "Oscar Wilde",
+    place: "",
+    alt: "Oscar",
+  },
+  {
+    id: 80,
+    image: img77,
+    content:
+      "Choose the one who chooses you in a room full of people, and not the one who wants you only when the room is empty.",
+    author: "",
+    place: "",
+    alt: "Anonymous",
+  },
+
   //
 
   // {
