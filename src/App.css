@@ -157,6 +157,11 @@ h1 {
   height: 100vh;
 }
 
+.content span {
+  color: #949494;
+  font-size: 24px;
+}
+
 .slide {
   opacity: 0;
   transition-duration: 1s ease;
@@ -261,6 +266,11 @@ footer p {
 
   .slide.active p {
     font-size: 24px;
+  }
+
+  .content span {
+    color: #949494;
+    font-size: 20px;
   }
 
   .about-wrapper,

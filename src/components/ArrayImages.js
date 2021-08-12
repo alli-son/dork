@@ -75,6 +75,26 @@ import img74 from "../images/74.jpeg";
 import img75 from "../images/75.jpeg"; // sad one
 import img76 from "../images/76.jpeg";
 import img77 from "../images/77.jpeg"; // sad two
+import img78 from "../images/78.jpeg";
+import img79 from "../images/79.jpeg";
+import img80 from "../images/80.jpeg";
+import img81 from "../images/81.png";
+import img82 from "../images/82.jpeg";
+import img83 from "../images/83.jpeg";
+import img84 from "../images/84.jpeg";
+import img85 from "../images/85.jpeg";
+import img86 from "../images/86.jpeg";
+import img87 from "../images/87.jpeg";
+import img88 from "../images/88.jpeg";
+import img89 from "../images/89.jpeg";
+import img90 from "../images/90.jpeg";
+import img91 from "../images/91.png";
+import img92 from "../images/92.png";
+import img93 from "../images/93.png";
+import img94 from "../images/94.jpeg";
+import img95 from "../images/95.jpeg";
+import img96 from "../images/96.jpeg";
+import img97 from "../images/97.jpeg";
 
 export const ArrayImages = [
   {
@@ -772,6 +792,179 @@ export const ArrayImages = [
     author: "",
     place: "",
     alt: "Anonymous",
+  },
+  {
+    id: 81,
+    image: img78,
+    content:
+      "You either die a hero. Or you live long enough to see yourself become the villain.",
+    author: "Harvey Dent",
+    place: "The Dark Knight",
+    alt: "Harvey",
+  },
+  {
+    id: 82,
+    image: img79,
+    content:
+      "The world isn’t perfect. But it’s there for us, doing the best it can. That’s what makes it so damn beautiful.",
+    author: "Roy Mustang",
+    place: "Full Metal Alchemist",
+    alt: "Roy",
+  },
+  {
+    id: 83,
+    image: img80,
+    content: "Giving up is what kills people.",
+    author: "Alucard",
+    place: "Hellsing",
+    alt: "Alucard",
+  },
+  {
+    id: 84,
+    image: img81,
+    content: "How can you move forward when you keep regretting the past?",
+    author: "Edwrad Elric",
+    place: "Full Metal Alchemist",
+    alt: "Edward",
+  },
+  {
+    id: 85,
+    image: img82,
+    content:
+      "Don’t give up, there’s no shame in falling down! The true shame is to not stand up again!",
+    author: "Shintaro Midorima",
+    place: "Kuroko no Basuke",
+    alt: "Shintaro",
+  },
+  {
+    id: 86,
+    image: img83,
+    content: "Fools who don't respect the past are likely to repeat it.",
+    author: "Nico Robin",
+    place: "One Piece",
+    alt: "Nico",
+  },
+  {
+    id: 87,
+    image: img84,
+    content:
+      "To know sorrow is not terrifying. What is terrifying is to know you can’t go back to happiness you could have.",
+    author: "Matsumoto Rangiku",
+    place: "Bleach",
+    alt: "Matsumoto",
+  },
+  {
+    id: 88,
+    image: img85,
+    content: "If you don’t take risks, you can’t create a future.",
+    author: "Monkey D. Luffy",
+    place: "One Piece",
+    alt: "Matsumoto",
+  },
+  {
+    id: 89,
+    image: img86,
+    content:
+      "Fear is not evil. It tells you what weakness is. And once you know your weakness, you can become stronger as well as kinder.",
+    author: "Gildarts Clive",
+    place: "Fairy Tail",
+    alt: "Gildarts",
+  },
+  {
+    id: 90,
+    image: img87,
+    content:
+      "If you don’t like your destiny, don’t accept it. Instead, have the courage to change it the way you want it to be!",
+    author: "Uzumaki Naruto",
+    place: "Naruto",
+    alt: "Naruto",
+  },
+  {
+    id: 91,
+    image: img88,
+    content:
+      "Whatever you lose, you’ll find it again. But what you throw away you’ll never get back.",
+    author: "Kenshin Himura",
+    place: "Rurouni Kenshin",
+    alt: "Kenshin",
+  },
+  {
+    id: 92,
+    image: img89,
+    content:
+      "Moving on doesn’t mean you forget about things. It just means you have to accept what’s happened and continue living.",
+    author: "Erza Scarlet",
+    place: "Fairy Tail",
+    alt: "Erza",
+  },
+  {
+    id: 93,
+    image: img90,
+    content: "The ticket to the future is always open.",
+    author: "Vash the Stampede",
+    place: "Trigun",
+    alt: "Vash",
+  },
+  {
+    id: 94,
+    image: img91,
+    content:
+      "Don’t live your life making up excuses. The one making your choices is yourself!",
+    author: "Mugen",
+    place: "Samurai Champloo",
+    alt: "Mugen",
+  },
+  {
+    id: 95,
+    image: img92,
+    content:
+      "I hate perfection. To be perfect is to be unable to improve any further.",
+    author: "Kurotsuchi Mayuri",
+    place: "Bleach",
+    alt: "Kurotsuchi",
+  },
+  {
+    id: 96,
+    image: img93,
+    content: "It’s impossible to work hard for something you don’t enjoy.",
+    author: "Silica",
+    place: "Sword Art Online",
+    alt: "Silica",
+  },
+  {
+    id: 97,
+    image: img94,
+    content:
+      "Who decides limits? And based on what? You said you worked hard? Well, maybe you need to work a little harder. Is that really the limit of your strength? Could the you of tomorrow beat you today? Instead of giving in, move forward.",
+    author: "Saitama",
+    place: "One Punch Man",
+    alt: "Saitama",
+  },
+  {
+    id: 98,
+    image: img95,
+    content:
+      "People with talent often have the wrong impression that things will go as they think.",
+    author: "Karma Akabane",
+    place: "Assassination Classroom",
+    alt: "Karma",
+  },
+  {
+    id: 99,
+    image: img96,
+    content: "Being weak is nothing to be ashamed of. Staying weak is!",
+    author: "Fuegoleon Vermillion",
+    place: "Black Clover",
+    alt: "Fuegoleon",
+  },
+  {
+    id: 100,
+    image: img97,
+    content:
+      "Whether you win or lose, you can always come out ahead by learning from the experience.",
+    author: "Toshinori Yagi",
+    place: "My Hero Academia",
+    alt: "Toshinori",
   },
 
   //

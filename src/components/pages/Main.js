@@ -7,11 +7,16 @@ const Main = () => {
 
   const nextSlide = () => {
     setCurrent(current === length - 1 ? 0 : current + 1);
+    // for (let i = length - 1; i > 0; i--) {
+    //   const rand = Math.floor(Math.random() * i);
+    //   const temp = ArrayImages[i];
+    //   ArrayImages[i] = ArrayImages[rand];
+    //   ArrayImages[rand] = temp;
+    // }
+
     for (let i = length - 1; i > 0; i--) {
-      const rand = Math.floor(Math.random() * i);
-      const temp = ArrayImages[i];
-      ArrayImages[i] = ArrayImages[rand];
-      ArrayImages[rand] = temp;
+      const j = Math.floor(Math.random() * (i + 1));
+      [ArrayImages[i], ArrayImages[j]] = [ArrayImages[j], ArrayImages[i]];
     }
   };
 
@@ -38,14 +43,14 @@ const Main = () => {
                 <div className="content">
                   <p>{imgs.content}</p>
                   {imgs.author || imgs.place ? (
-                    <p className="fs24">
+                    <span>
                       - {imgs.author}{" "}
                       {imgs.place ? (
                         <span className="italic">({imgs.place})</span>
                       ) : (
                         ""
                       )}
-                    </p>
+                    </span>
                   ) : null}
                 </div>
               ) : (
