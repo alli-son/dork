@@ -95,6 +95,26 @@ import img94 from "../images/94.jpeg";
 import img95 from "../images/95.jpeg";
 import img96 from "../images/96.jpeg";
 import img97 from "../images/97.jpeg";
+import img98 from "../images/98.png";
+import img99 from "../images/99.jpeg";
+import img100 from "../images/100.jpeg"; // people three
+import img101 from "../images/101.jpeg";
+import img102 from "../images/102.jpeg";
+import img103 from "../images/103.jpeg";
+import img104 from "../images/104.jpeg";
+import img105 from "../images/105.jpeg";
+import img106 from "../images/106.jpeg";
+import img107 from "../images/107.jpeg";
+import img108 from "../images/108.png";
+import img109 from "../images/109.jpeg";
+import img110 from "../images/110.jpeg";
+import img111 from "../images/111.jpeg";
+import img112 from "../images/112.jpeg";
+import img113 from "../images/113.jpeg";
+import img114 from "../images/114.jpeg";
+import img115 from "../images/115.jpeg";
+import img116 from "../images/116.jpeg";
+import img117 from "../images/117.jpeg";
 
 export const ArrayImages = [
   {
@@ -103,7 +123,7 @@ export const ArrayImages = [
     content:
       "Talent is something you make bloom. Instinct is something you polish.",
     author: "Tōru Oikawa",
-    place: "Haikyu!!",
+    place: "Haikyū!!",
     alt: "Oikawa",
   },
   {
@@ -966,14 +986,182 @@ export const ArrayImages = [
     place: "My Hero Academia",
     alt: "Toshinori",
   },
+  {
+    id: 101,
+    image: img98,
+    content: "There are some flowers you only see when you take detours.",
+    author: "Saeko Tanaka",
+    place: "Haikyu!!",
+    alt: "Saeko",
+  },
+  {
+    id: 102,
+    image: img99,
+    content:
+      "Do not pray for an easy life. Pray for the strength to endure a difficult one.",
+    author: "Bruce Lee",
+    place: "",
+    alt: "Bruce",
+  },
+  {
+    id: 103,
+    image: img100,
+    content:
+      "If you want to know what at person is like, take a good look on how they treat their inferiors not their equals.",
+    author: "",
+    place: "",
+    alt: "Anonymous",
+  },
+  {
+    id: 104,
+    image: img101,
+    content: "I wanna stop wondering “What if”, I want to know “What is…",
+    author: "Basha",
+    place: "One More Chance",
+    alt: "Basha",
+  },
+  {
+    id: 105,
+    image: img102,
+    content:
+      "Remember that everyone you meet is afraid of something, loves something and has lost something.",
+    author: "Lucy Heartfilia",
+    place: "Fairy Tail",
+    alt: "Lucy",
+  },
+  {
+    id: 106,
+    image: img103,
+    content:
+      "There are no regrets. If one can be proud of one’s life, one should not wish for another chance.",
+    author: "Saber",
+    place: "Fate/stay night",
+    alt: "Saber",
+  },
+  {
+    id: 107,
+    image: img104,
+    content:
+      "A life that lives without doing anything is the same as a slow death.",
+    author: "Lelouch vi Britannia",
+    place: "Code Geass: Lelouch of the Rebellion",
+    alt: "Lelouch",
+  },
+  {
+    id: 108,
+    image: img105,
+    content:
+      "If you want to grant your own wish, then you should clear your own path to it.",
+    author: "Rintarou Okabe",
+    place: "Steins;Gate",
+    alt: "Rintarou",
+  },
+  {
+    id: 109,
+    image: img106,
+    content:
+      "You yourself have to change first, or nothing will change for you.",
+    author: "Gintoki Sakata",
+    place: "Gintama",
+    alt: "Gintoki",
+  },
+  {
+    id: 110,
+    image: img107,
+    content: "Do you need a reason to not want to lose?",
+    author: "Shōyō Hinata",
+    place: " Haikyū!!",
+    alt: "Hinata",
+  },
+  {
+    id: 111,
+    image: img108,
+    content: "Life's a bore if you don't challenge yourself.",
+    author: "Yū Nishinoya",
+    place: " Haikyū!!",
+    alt: "Nishinoya",
+  },
+  {
+    id: 112,
+    image: img109,
+    content:
+      "It's no fun if you don't try other options once you know they exist.",
+    author: "Yū Nishinoya",
+    place: " Haikyū!!",
+    alt: "Nishinoya",
+  },
+  {
+    id: 113,
+    image: img110,
+    content:
+      "Is defeat proof that you are weak? Isn't defeat more like a trial to overcome? Of whether you can stand up and walk again after falling to your knees? If you remain on your knees like that, then it would be a sign of weakness.",
+    author: "Ittetsu Takeda",
+    place: " Haikyū!!",
+    alt: "Takeda",
+  },
+  {
+    id: 114,
+    image: img111,
+    content:
+      "Today might be the chance to grasp the chance to let your talent bloom. Maybe tomorrow, the day after, or next year. Maybe even when you're thirty. I'm not sure if physique has anything to do with it, but if you think that it will never come, it probably never will.",
+    author: "Tōru Oikawa",
+    place: " Haikyū!!",
+    alt: "Oikawa",
+  },
+  {
+    id: 115,
+    image: img112,
+    content:
+      "You should know better than anyone that you've failed the moment you lose your cool.",
+    author: "Daichi Sawamura",
+    place: " Haikyū!!",
+    alt: "Sawamura",
+  },
+  {
+    id: 116,
+    image: img113,
+    content:
+      "There's no match that you can't win, and there's no match that you'll win for sure.",
+    author: "Ikkei Ukai",
+    place: " Haikyū!!",
+    alt: "Ukai",
+  },
+  {
+    id: 117,
+    image: img114,
+    content:
+      "Little by little, what you've become will naturally become important to you. What you need at the start is a little bit of curiosity.",
+    author: "Kiyoko Shimizu",
+    place: " Haikyū!!",
+    alt: "Shimizu",
+  },
+  {
+    id: 118,
+    image: img115,
+    content:
+      "Even if a game doesn't seem clear-able at first, after playing it over and over again, you can conquer it.",
+    author: "Kenma Kozume",
+    place: " Haikyū!!",
+    alt: "Kenma",
+  },
+  {
+    id: 119,
+    image: img116,
+    content:
+      "Someone who can't see the opponent standing right in front of him, can't defeat the opponent that lies beyond.",
+    author: "Hajime Iwaizumi",
+    place: " Haikyū!!",
+    alt: "Iwaizumi",
+  },
+  {
+    id: 120,
+    image: img117,
+    content:
+      "What's lame isn't losing the match. It's to be scared of the match!",
+    author: "Ryūnosuke Tanaka",
+    place: " Haikyū!!",
+    alt: "Tanaka",
+  },
 
   //
-
-  // {
-  //   id: 2,
-  //   image: img2,
-  //   content: "There are some flowers you only see when you take detours.",
-  //   author: "- Saeko Tanaka (Haikyu!!)",
-  //   alt: "Saeko",
-  // },
 ];
