@@ -115,6 +115,16 @@ import img114 from "../images/114.jpeg";
 import img115 from "../images/115.jpeg";
 import img116 from "../images/116.jpeg";
 import img117 from "../images/117.jpeg";
+import img118 from "../images/118.jpeg";
+import img119 from "../images/119.jpeg";
+import img120 from "../images/120.jpeg";
+import img121 from "../images/121.png";
+import img122 from "../images/122.jpeg"; // sad three
+import img123 from "../images/123.jpeg";
+import img124 from "../images/124.jpeg";
+import img125 from "../images/125.png";
+import img126 from "../images/126.png";
+import img127 from "../images/127.jpeg";
 
 export const ArrayImages = [
   {
@@ -1078,7 +1088,7 @@ export const ArrayImages = [
     image: img108,
     content: "Life's a bore if you don't challenge yourself.",
     author: "Yū Nishinoya",
-    place: " Haikyū!!",
+    place: "Haikyū!!",
     alt: "Nishinoya",
   },
   {
@@ -1087,7 +1097,7 @@ export const ArrayImages = [
     content:
       "It's no fun if you don't try other options once you know they exist.",
     author: "Yū Nishinoya",
-    place: " Haikyū!!",
+    place: "Haikyū!!",
     alt: "Nishinoya",
   },
   {
@@ -1096,7 +1106,7 @@ export const ArrayImages = [
     content:
       "Is defeat proof that you are weak? Isn't defeat more like a trial to overcome? Of whether you can stand up and walk again after falling to your knees? If you remain on your knees like that, then it would be a sign of weakness.",
     author: "Ittetsu Takeda",
-    place: " Haikyū!!",
+    place: "Haikyū!!",
     alt: "Takeda",
   },
   {
@@ -1105,7 +1115,7 @@ export const ArrayImages = [
     content:
       "Today might be the chance to grasp the chance to let your talent bloom. Maybe tomorrow, the day after, or next year. Maybe even when you're thirty. I'm not sure if physique has anything to do with it, but if you think that it will never come, it probably never will.",
     author: "Tōru Oikawa",
-    place: " Haikyū!!",
+    place: "Haikyū!!",
     alt: "Oikawa",
   },
   {
@@ -1114,7 +1124,7 @@ export const ArrayImages = [
     content:
       "You should know better than anyone that you've failed the moment you lose your cool.",
     author: "Daichi Sawamura",
-    place: " Haikyū!!",
+    place: "Haikyū!!",
     alt: "Sawamura",
   },
   {
@@ -1123,7 +1133,7 @@ export const ArrayImages = [
     content:
       "There's no match that you can't win, and there's no match that you'll win for sure.",
     author: "Ikkei Ukai",
-    place: " Haikyū!!",
+    place: "Haikyū!!",
     alt: "Ukai",
   },
   {
@@ -1132,7 +1142,7 @@ export const ArrayImages = [
     content:
       "Little by little, what you've become will naturally become important to you. What you need at the start is a little bit of curiosity.",
     author: "Kiyoko Shimizu",
-    place: " Haikyū!!",
+    place: "Haikyū!!",
     alt: "Shimizu",
   },
   {
@@ -1150,7 +1160,7 @@ export const ArrayImages = [
     content:
       "Someone who can't see the opponent standing right in front of him, can't defeat the opponent that lies beyond.",
     author: "Hajime Iwaizumi",
-    place: " Haikyū!!",
+    place: "Haikyū!!",
     alt: "Iwaizumi",
   },
   {
@@ -1159,8 +1169,95 @@ export const ArrayImages = [
     content:
       "What's lame isn't losing the match. It's to be scared of the match!",
     author: "Ryūnosuke Tanaka",
-    place: " Haikyū!!",
+    place: "Haikyū!!",
     alt: "Tanaka",
+  },
+  {
+    id: 121,
+    image: img118,
+    content:
+      "I am built upon the small things I do every day, and the end results are no more than a byproduct of that.",
+    author: "Shinsuke Kita",
+    place: "Haikyū!!",
+    alt: "Kita",
+  },
+  {
+    id: 122,
+    image: img119,
+    content:
+      "It’s just pathetic to give up on something before you even give it a shot.",
+    author: "Reiko Mikami",
+    place: "Another",
+    alt: "Reiko",
+  },
+  {
+    id: 123,
+    image: img120,
+    content:
+      "Knowing you’re different is only the beginning. If you accept these differences you’ll be able to get past them and grow even closer.",
+    author: "Miss Kobayashi",
+    place: "Kobayashi-san Chi no Maid Dragon",
+    alt: "Kobayashi",
+  },
+  {
+    id: 124,
+    image: img121,
+    content: "If your life can change once, your life can change again.",
+    author: "Sanae Furukawa",
+    place: "Clannad",
+    alt: "Sanae",
+  },
+  {
+    id: 125,
+    image: img122,
+    content:
+      "You've always known what you've got. You just never thought you'd lose it.",
+    author: "Allison",
+    place: "",
+    alt: "Alli",
+  },
+  {
+    id: 126,
+    image: img123,
+    content:
+      "I fear not the man who has practiced 10,000 kicks once, but I fear the man who had practiced one kick 10,000 times.",
+    author: "Bruce Lee",
+    place: "",
+    alt: "Bruce",
+  },
+  {
+    id: 127,
+    image: img124,
+    content:
+      "A dream is worth less than nothing if you don’t have someone else to share it.",
+    author: "Saitō Dōsan",
+    place: "Oda Nobuna no Yabou",
+    alt: "Saitō",
+  },
+  {
+    id: 128,
+    image: img125,
+    content:
+      "If you turn your eyes away from sad things, they’ll happen again one day. If you keep running away, you’ll keep repeating the same mistakes. That’s why you have to face the truth straight on.",
+    author: "Riki Naoe",
+    place: "Little Busters!",
+    alt: "Riki",
+  },
+  {
+    id: 129,
+    image: img126,
+    content: "Remember the lesson, not the disappointment.",
+    author: "Holo",
+    place: "Spice and Wolf",
+    alt: "Holo",
+  },
+  {
+    id: 130,
+    image: img127,
+    content: "If it's easy, it's boring.",
+    author: "",
+    place: "",
+    alt: "",
   },
 
   //

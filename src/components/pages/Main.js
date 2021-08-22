@@ -5,7 +5,7 @@ const Main = () => {
   const [current, setCurrent] = useState(0);
   const length = ArrayImages.length;
 
-  const nextSlide = () => {
+  const nextSlide = (array) => {
     setCurrent(current === length - 1 ? 0 : current + 1);
     // for (let i = length - 1; i > 0; i--) {
     //   const rand = Math.floor(Math.random() * i);
@@ -14,9 +14,22 @@ const Main = () => {
     //   ArrayImages[rand] = temp;
     // }
 
-    for (let i = length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [ArrayImages[i], ArrayImages[j]] = [ArrayImages[j], ArrayImages[i]];
+    // for (let i = length - 1; i > 0; i--) {
+    //   const j = Math.floor(Math.random() * (i + 1));
+    //   [ArrayImages[i], ArrayImages[j]] = [ArrayImages[j], ArrayImages[i]];
+    // }
+
+    let currentIndex = array.length;
+    let randomIndex;
+
+    while (currentIndex !== 0) {
+      randomIndex = Math.floor(Math.random() * currentIndex);
+      currentIndex--;
+
+      [array[currentIndex], array[randomIndex]] = [
+        array[randomIndex],
+        array[currentIndex],
+      ];
     }
   };
 
@@ -59,7 +72,7 @@ const Main = () => {
             </div>
           );
         })}
-        <div onClick={nextSlide}>
+        <div onClick={() => nextSlide(ArrayImages)}>
           <i className="fas fa-angle-right right-arrow"></i>
         </div>
       </div>
