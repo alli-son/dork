@@ -124,7 +124,9 @@ import img123 from "../images/123.jpeg";
 import img124 from "../images/124.jpeg";
 import img125 from "../images/125.png";
 import img126 from "../images/126.png";
-import img127 from "../images/127.jpeg";
+import img127 from "../images/127.jpeg"; // happy one
+import img128 from "../images/128.jpeg";
+import img129 from "../images/129.jpeg"; // happy two
 
 export const ArrayImages = [
   {
@@ -1211,7 +1213,7 @@ export const ArrayImages = [
     id: 125,
     image: img122,
     content:
-      "You've always known what you've got. You just never thought you'd lose it.",
+      "You've always known what you've got. You just never thought you would lose it.",
     author: "Allison",
     place: "",
     alt: "Alli",
@@ -1258,6 +1260,24 @@ export const ArrayImages = [
     author: "",
     place: "",
     alt: "",
+  },
+  {
+    id: 131,
+    image: img128,
+    content:
+      "We don't stop playing because we grow old. We grow old because we stop playing.",
+    author: "George Bernard Shaw",
+    place: "",
+    alt: "George",
+  },
+  {
+    id: 132,
+    image: img129,
+    content:
+      "Life isn't about waiting for the storm to pass, it's about learning to dance in the rain.",
+    author: "",
+    place: "",
+    alt: "Anonymous",
   },
 
   //
