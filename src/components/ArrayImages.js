@@ -120,7 +120,7 @@ import img119 from "../images/119.jpeg";
 import img120 from "../images/120.jpeg";
 import img121 from "../images/121.png";
 import img122 from "../images/122.jpeg"; // sad three
-import img123 from "../images/123.jpeg"; 
+import img123 from "../images/123.jpeg";
 import img124 from "../images/124.jpeg";
 import img125 from "../images/125.png";
 import img126 from "../images/126.png";
@@ -1275,6 +1275,14 @@ export const ArrayImages = [
     image: img129,
     content:
       "Life isn't about waiting for the storm to pass, it's about learning to dance in the rain.",
+    author: "",
+    place: "",
+    alt: "Anonymous",
+  },
+  {
+    id: 133,
+    image: img75,
+    content: "Rule number 1, never be someone's number 2.",
     author: "",
     place: "",
     alt: "Anonymous",
