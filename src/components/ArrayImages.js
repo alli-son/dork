@@ -126,7 +126,21 @@ import img125 from "../images/125.png";
 import img126 from "../images/126.png";
 import img127 from "../images/127.jpeg"; // happy one
 import img128 from "../images/128.jpeg";
-import img129 from "../images/129.jpeg"; // happy two TEST
+import img129 from "../images/129.jpeg"; // happy two
+import img130 from "../images/130.jpg"; // sad four
+import img131 from "../images/131.jpg"; // sad five
+import img132 from "../images/132.jpg"; // sad six
+import img133 from "../images/133.jpg"; // sad seven
+import img134 from "../images/134.jpg"; // sad eight
+import img135 from "../images/135.jpg"; // sad nine
+import img136 from "../images/136.jpg"; // sad ten
+import img137 from "../images/137.jpg";
+import img138 from "../images/138.jpg";
+import img139 from "../images/139.jpeg";
+import img140 from "../images/140.jpg";
+import img141 from "../images/141.jpg";
+import img142 from "../images/142.jpg";
+import img143 from "../images/143.jpg";
 
 export const ArrayImages = [
   {
@@ -1287,6 +1301,164 @@ export const ArrayImages = [
     place: "",
     alt: "Anonymous",
   },
-
+  {
+    id: 134,
+    image: img130,
+    content:
+      "Always know the difference between what you're getting and what you deserve.",
+    author: "",
+    place: "",
+    alt: "Anonymous",
+  },
+  {
+    id: 135,
+    image: img131,
+    content: "Never settle for anybody just so you can have somebody.",
+    author: "",
+    place: "",
+    alt: "Anonymous",
+  },
+  {
+    id: 136,
+    image: img132,
+    content: "Don't settle for relationships that won't let you be yourself.",
+    author: "",
+    place: "",
+    alt: "Anonymous",
+  },
+  {
+    id: 137,
+    image: img133,
+    content:
+      "Never settle for being someone's other. When you know you have the potential to be someone's only.",
+    author: "",
+    place: "",
+    alt: "Anonymous",
+  },
+  {
+    id: 138,
+    image: img134,
+    content:
+      "Ten years from now, make sure you can say that you choose your life. You didn't settle for it.",
+    author: "",
+    place: "",
+    alt: "Anonymous",
+  },
+  {
+    id: 139,
+    image: img135,
+    content:
+      "It's really hard to see someone shine when all you see is where they don't.",
+    author: "",
+    place: "",
+    alt: "Anonymous",
+  },
+  {
+    id: 140,
+    image: img136,
+    content:
+      "Just because you find love doesn't make it butterflies and angels. There's gonna be tough times and good times, and it's really about who you want to spend those hard moments with. And finding that person you can go through hell and back with.",
+    author: "",
+    place: "",
+    alt: "Anonymous",
+  },
+  {
+    id: 141,
+    image: img137,
+    content:
+      "Going off on your own and deciding for yourself what needs to be done are two different things.",
+    author: "Sebastian Moran",
+    place: "Moriarty the Patriot",
+    alt: "Sebastian",
+  },
+  {
+    id: 142,
+    image: img138,
+    content:
+      "It's not what we don't know that gets us in trouble. It's what we know for sure that ain't so.",
+    author: "Mark Twain",
+    place: "",
+    alt: "Mark",
+  },
+  {
+    id: 143,
+    image: img49,
+    content:
+      "Learn then start. Start then learn. Go forward to whatever works for you.",
+    author: "",
+    place: "",
+    alt: "Anonymous",
+  },
+  {
+    id: 144,
+    image: img55,
+    content: "Conversation is different from confrontation.",
+    author: "",
+    place: "",
+    alt: "Anonymous",
+  },
+  {
+    id: 145,
+    image: img139,
+    content:
+      "Don't hold on to someone who's leaving, otherwise you won't meet the one who's coming.",
+    author: "Carl Justav Jung",
+    place: "",
+    alt: "Carl",
+  },
+  {
+    id: 146,
+    image: img140,
+    content:
+      "I wonder what sort of criteria you use to divide people into good and evil.",
+    author: "Shogo Makishima",
+    place: "Psycho Pass",
+    alt: "Shogo",
+  },
+  {
+    id: 147,
+    image: img141,
+    content:
+      "Society doesn't always do what's right. That's exactly why we ourselves must live virtous lives.",
+    author: "Akane Tsunemori",
+    place: "Psycho Pass",
+    alt: "Akane",
+  },
+  {
+    id: 148,
+    image: img140,
+    content:
+      "The opposite of boredom is not pleasure, but excitement. People will gladly seek out any kind of excitement, even pain.",
+    author: "Shogo Makishima",
+    place: "Psycho Pass",
+    alt: "Shogo",
+  },
+  {
+    id: 149,
+    image: img142,
+    content:
+      "No matter where you are, people always find a way to entertain themselves.",
+    author: "Shuusei Kagari",
+    place: "Psycho Pass",
+    alt: "Shuusei",
+  },
+  {
+    id: 150,
+    image: img143,
+    content:
+      "They say that fools learn from their experiences, while the wise learn from history.",
+    author: "Nobuchika Ginoza",
+    place: "Psycho Pass",
+    alt: "Nobuchika",
+  },
+  {
+    id: 151,
+    image: img143,
+    content:
+      "If you look away and just turn your back on those you don’t understand, you’ll regret it someday. Accept what’s happening before your eyes as a fact. That’s a shortcut to becoming an adult.",
+    author: "Nobuchika Ginoza",
+    place: "Psycho Pass",
+    alt: "Nobuchika",
+  },
   //
 ];
