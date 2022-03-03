@@ -141,6 +141,9 @@ import img140 from "../images/140.jpg";
 import img141 from "../images/141.jpg";
 import img142 from "../images/142.jpg";
 import img143 from "../images/143.jpg";
+import img144 from "../images/144.jpg";
+import img145 from "../images/145.jpg";
+import img146 from "../images/146.jpg";
 
 export const ArrayImages = [
   {
@@ -1460,5 +1463,58 @@ export const ArrayImages = [
     place: "Psycho Pass",
     alt: "Nobuchika",
   },
-  //
+  {
+    id: 152,
+    image: img77,
+    content:
+      "We say goodbye to all that was and drown ourselves in endless skies. From the stars we watch the earth that's moving sadly through the night. And all of the angels sing along turning your world into a song. I'm gonna keep you safe and warm sleep on, sleep on.",
+    author: "Michael FK",
+    place: "Lullaby",
+    alt: "Michael",
+  },
+  {
+    id: 153,
+    image: img144,
+    content:
+      "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+    author: "Nelson Mandela",
+    place: "",
+    alt: "Nelson",
+  },
+  {
+    id: 154,
+    image: img145,
+    content:
+      "Humility is not thinking less of yourself, it's thinking of yourself less.",
+    author: "C.S. Lewis",
+    place: "",
+    alt: "CS",
+  },
+  {
+    id: 155,
+    image: img146,
+    content:
+      "Since the love that you left is all that I get. I want you to know that if I can't be close to you, I settle for the ghost of you. I miss you more than life.",
+    author: "Justin Beiber",
+    place: "Ghost",
+    alt: "Justin",
+  },
+  {
+    id: 156,
+    image: img6,
+    content:
+      "Hinahanap mo nga ba ako o ang kawalan ko? Mas madaling makita ang wala.",
+    author: "Bob Ong",
+    place: "Ang Paboritong Libro ni Hudas",
+    alt: "Bob",
+  },
+  {
+    id: 157,
+    image: img70,
+    content:
+      "I wanna wake up where you are. I won't say anything at all. So why don't you slide?",
+    author: "Goo Goo Dolls",
+    place: "Slide",
+    alt: "Goo",
+  },
 ];
